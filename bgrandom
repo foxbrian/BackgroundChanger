@@ -1,0 +1,4 @@
+#!/bin/bash
+mkdir ~/.BackgroundChanger/
+wget -O ~/.BackgroundChanger/1.png --show-progress https://source.unsplash.com/1600x900/?nature
+feh --bg-scale ~/.BackgroundChanger/1.png
